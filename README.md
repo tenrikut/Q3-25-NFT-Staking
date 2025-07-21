@@ -313,9 +313,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Solana Foundation](https://solana.com/) for the high-performance blockchain
 - [Metaplex](https://www.metaplex.com/) for NFT standard implementations
 
-## 📞 Support
-
-For support, please open an issue in the GitHub repository or contact the development team.
 
 ---
 
