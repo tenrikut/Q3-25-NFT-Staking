@@ -16,7 +16,7 @@ pub struct Initialize<'info> {
         payer = user, // User pays the rent for their own account creation
         seeds = [b"user".as_ref(), user.key().as_ref()], // PDA using user's pubkey as seed
         bump, // Anchor finds the canonical bump seed automatically
-        space = UserAccount::INIT_SPACE, // Space needed for the UserAccount struct
+        space = 8 + UserAccount::INIT_SPACE, // 8 bytes discriminator + UserAccount struct
     )]
     pub user_account: Account<'info, UserAccount>, // The user's staking account being created
     pub system_program: Program<'info, System>, // Solana system program for account creation
